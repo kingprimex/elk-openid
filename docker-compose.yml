@@ -74,7 +74,7 @@ services:
     ports:
       - 9200:9200      
   httpd:
-    image: solsson/httpd-openidc:2.4
+    image: kingprimex/apache-oidc:2.4
     networks:
       - my-network
     ports:
